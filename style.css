@@ -29,21 +29,24 @@ p {
 /* item */
 .item {
     height: 400px;
-    width: 300px;
+    /* width: 280px; */
     border-radius: 17px;
     overflow: hidden;
+    padding: 0px;
+    margin: 5px;
 }
 
 .item img {
-    width: 100%;
+    /* width: 300px; */
     height: 100%;
     border-radius: 17px;
     transform: scale(1.3);
     transition: all 0.5s;
+    object-fit: cover;
 }
 
 .item:hover img{
-    transform: scale(1);
+    transform: scale(1.2);
     transition: all 0.5s;
 }
 
@@ -193,4 +196,38 @@ p {
     height: 56px;
     text-align: center;
     width: 60px;
+}
+
+.t {
+    background-color: rgba(0, 0, 0, 0.116);
+    position: absolute;
+    top: 0px;
+    color: #fff;
+    font-size: 24px;
+}
+
+.doitac {
+    margin-top: 30px;
+    padding: 15px 0px;
+    border-top: 1px solid #c3a30b;
+    border-bottom: 3px solid #c3a30b;
+}
+.doitac img {
+    object-fit: scale-down;
+    margin: 10px 30px;
+    width: 150px;
+    height: 150px;
+}
+
+footer {
+    margin-top: 50px;
+    display:flex;
+}
+
+.lienhe {
+    padding-left: 20px;
+    width: 40%;
+}
+.ketnoi, .qrVA, .qrVI {
+    width: 20%;
 }
