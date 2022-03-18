@@ -12,6 +12,10 @@
     cursor: pointer;
 }
 
+.nav-header {
+    width: auto;
+}
+
 h1 {
     padding-top: 50px;
     color: #c3a30b;
@@ -73,6 +77,9 @@ p {
 .item:hover {
     box-shadow: rgba(0, 0, 0, 0.35) 0px 54px 55px, rgba(0, 0, 0, 0.22) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.19) 0px -3px 5px;
 }
+.item1:hover {
+    box-shadow: 0 7px 40px 0 rgb(0 0 0 / 15%);
+}
 
 .ip:hover {
     background-color: #dbb70b;
@@ -82,6 +89,10 @@ p {
     margin: 0px 20px;
     position: relative;
     /* box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px; */
+}
+.tt {
+    display: block !important;
+    font-size: 20px !important;
 }
 .d p {
     position: absolute;
@@ -216,17 +227,31 @@ p {
     padding: 15px 0px;
     border-top: 1px solid #c3a30b;
     border-bottom: 3px solid #c3a30b;
+    overflow: hidden;
 }
 .doitac img {
     object-fit: scale-down;
     margin: 10px 30px;
     width: 150px;
-    height: 150px;
+    height: 100px;
+}
+
+.dt {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0px;
+}
+
+.qr {
+    width: 100%;
+    height: auto;
 }
 
 footer {
     margin-top: 50px;
     display:flex;
+    /* flex-flow: row wrap; */
 }
 
 .lienhe {
@@ -264,20 +289,26 @@ footer {
 }
 
 @media screen and (max-width: 768px) {
+    
     .dflex {display: inline-block;}
     .item,.item1 {width: 49%; display: inline-block;}
-    .i{height: 280px;}
+    .i{height: auto;}
     .exp {margin: 10px 0px;}
     .exp1 {height: 250px;}
+    .anh {height: 200px;}
+    .i-l {height: auto; width: 100%;}
+    .qr {width: 150px; height: 150px;}
 }
 
 @media screen and (max-width: 576px) {
     .dflex {display: inline-block;}
     .item,.item1 {width: 100%; display: inline-block;}
+    .dt img {width: 100%; height: auto;}
 }
 
 .check-language {
     position: relative;
+    z-index: 8;
 }
 .language {
     position: absolute;
@@ -292,12 +323,16 @@ footer {
     border: 1px solid lightgrey;
 }
 
+.anh {
+    height: 230px;
+}
+
 .zindex {
     position: relative;
     top: 0;
     left: 0;
     z-index: 1000;
-    overflow: hidden;
+    /* overflow: hidden; */
     /* overflow: hidden; */
 }
 
@@ -309,8 +344,13 @@ footer {
     display: flex;
 }
 
-@media screen and (max-width: 992px) {
+@media screen and (max-width: 920px) {
     /* .nopadding {padding-right: 0 !important; } */
+    .nav-header {
+        width: 100%;
+    }
+    .dflex {display: inline-block;}
+    .item,.item1 {width: 49%; display: inline-block;}
     .show-language {display: block;}
 
     .navbar-collapse {
@@ -328,7 +368,7 @@ footer {
     .check-language {
         position: absolute;
         top: 40%;
-        left: 50%;
+        left: 40%;
     }
 }
 
@@ -358,7 +398,13 @@ footer {
     display: none;
 }
 
-@media screen and (max-width: 992px) {
+@media screen and (max-width: 494px) {
+    button[aria-expanded="true"]~.check-language {
+        display: none;
+    }
+ }
+
+@media screen and (max-width: 920px) {
     /* .navbar-collapse {
         display: none;
     } */
@@ -371,7 +417,7 @@ footer {
         display: block;
         position: absolute;
         top: 0;
-        right: 15px;
+        right: 32px;
         font-size: 34px;
         z-index: 100000;
     }
@@ -414,25 +460,163 @@ footer {
 }
 
 .carousel-inner {
-    height: 350px;
+    margin-top: 97px;
+    height: 450px;
 }
 .carousel-item {
     height: 100%;
+    width: 100%;
 }
 
 .carousel-item img {
-    height: 100%;
+    width: 100%;
+    height: auto;
     object-fit: cover;
 }
+.screen-small {display: none;}
 
 .anh3 {
-    height: auto !important; 
+    width: 100%;
+    height: 100% !important; 
     position: absolute; 
-    top: -253px;
+}
+
+.text-slider {
+    position: absolute;
+    top: 50%;
+}
+
+.c-re {
+    height: auto;
+}
+
+.re {
+    height: 100%;
+}
+
+.re img {height: 100%; object-fit: scale-down;}
+
+.anh3-re {
+    width: 100%;
+    height: 100% !important; 
 }
 
 @media screen and (max-width: 720px) {
-    .carousel-inner {
-        height: 700px;
-    }
+    .screen-big {display: none;}
+    .screen-small {display: block;}
+}
+
+.slick-slide {
+    padding: 0px 10px;
+}
+
+
+.slide-arrow{
+    position: absolute;
+    top: 50%;
+    margin-top: -15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .prev-arrow{
+    position: absolute;
+    left: 12px;
+    width: 40px;
+    height: 40px;
+    z-index: 100;
+    font-size: 24px;
+    color: rgb(34, 31, 31);
+    background-color: #fff;
+    border-radius: 50%;
+  }
+  .next-arrow{
+    position: absolute;
+    right: 12px;
+    width: 40px;
+    height: 40px;
+    z-index: 100;
+    font-size: 24px;
+    color: rgb(34, 31, 31);
+    background-color: #fff;
+    border-radius: 50%;
+  }
+
+  @media screen and (max-width: 577px) {
+    .diadiem {width: 90%;}
+}
+
+.card-title,.card-text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.text-gold {
+    color: #c3a30b;
+    /* white-space: nowrap; */
+    /* font-size: 12px; */
+    overflow: hidden;
+}
+
+.text-gold> p {
+    font-size: 14px;
+}
+
+.qr {width: 150px; height: 150px;}
+
+
+.card-text {
+        overflow: hidden;
+        -webkit-line-clamp: 3;
+        display: -webkit-box;
+        -webkit-box-orient: vertical;
+}
+
+.card-body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.card-body h5 {
+    font-size: 17px;
+    margin: 0;
+}
+
+.card-body p {
+    margin: 0;
+}
+
+.xemthem {
+    float: right;
+}
+
+.show-text {
+    display: flex;
+}
+
+.an {
+    position: absolute;
+    bottom: 0;
+    right: 20px;
+    display: none;
+}
+
+.text-small {
+    /* height: 100%;  */
+    overflow: hidden;
+    -webkit-line-clamp: 2;
+    display: -webkit-box !important;
+    -webkit-box-orient: vertical;
+}
+
+.show-high {
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    width: 100%;
+    z-index: 9999;
 }
