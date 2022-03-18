@@ -14,7 +14,7 @@
 </head>
 <body>
     <div class="container-fluid px-0">
-      <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <nav class="navbar navbar-expand-lg navbar-light bg-light zindex px-0" style="border-bottom: 3px solid #c3a30b;">
         <div class="container-fluid">
           <!-- <a class="navbar-brand" href="#">Navbar</a> -->
           <a class="navbar-brand nav-link active text-dark fw-bold" aria-current="page" href="#"><img src="https://vgstravel.com/frontend/landing/images/Logo_VGSTravel1%201.png" alt=""></a>
@@ -22,10 +22,11 @@
             <span class="navbar-toggler-icon"></span>
           </button>
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <div class="daux" id="daux">X</div>
             <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-              <li class="nav-item justify-content-center d-flex align-items-center ">
+              <li class="nav-item justify-content-center d--flex align-items-center">
                 <div class="dropdown">
-                  <a id="dropdownMenuButton" class="text-nowrap px-2 nav-link text-dark fw-bold " href="#">Tour Golf Quốc Tế <small><i class="fa-solid fa-chevron-down"></i></small></a>
+                  <a id="dropdownMenuButton" class="text-nowrap px-2 nav-link text-dark fw-bold nopadding" href="#">Tour Golf Quốc Tế <small><i class="fa-solid fa-chevron-down"></i></small></a>
                   <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
                     <a class="dropdown-item" href="#">Tour golf Châu Âu</a>
                     <a class="dropdown-item" href="#">Tour golf Châu Úc</a>
@@ -36,12 +37,12 @@
                   </div>
                 </div>
               </li>
-              <li class="nav-item justify-content-center d-flex align-items-center">
-                <a class="text-nowrap px-2 nav-link text-dark fw-bold" href="#">Tour Golf Trong Nước</a>
+              <li class="nav-item justify-content-center d--flex align-items-center">
+                <a class="text-nowrap px-2 nav-link text-dark fw-bold"nopadding href="#">Tour Golf Trong Nước</a>
               </li>
-              <li class="nav-item justify-content-center d-flex align-items-center ">
+              <li class="nav-item justify-content-center d--flex align-items-center ">
                 <div class="dropdown">
-                  <a id="dropdownMenuButton" class="text-nowrap px-2 nav-link text-dark fw-bold " href="#">Điểm đến golf <small><i class="fa-solid fa-chevron-down"></i></small></a>
+                  <a id="dropdownMenuButton" class="text-nowrap px-2 nav-link text-dark fw-bold nopadding" href="#">Điểm đến golf <small><i class="fa-solid fa-chevron-down"></i></small></a>
                   <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
                     <a class="dropdown-item" href="#">Châu Âu</a>
                     <a class="dropdown-item" href="#">Châu Úc</a>
@@ -51,18 +52,18 @@
                   </div>
                 </div>
               </li>
-              <li class="nav-item justify-content-center d-flex align-items-center ">
+              <li class="nav-item justify-content-center d--flex align-items-center ">
                 <div class="dropdown">
-                  <a id="dropdownMenuButton" class="text-nowrap px-2 nav-link text-dark fw-bold " href="#">Dịch vụ & Tiện ích <small><i class="fa-solid fa-chevron-down"></i></small></a>
+                  <a id="dropdownMenuButton" class="text-nowrap px-2 nav-link text-dark fw-bold nopadding" href="#">Dịch vụ & Tiện ích <small><i class="fa-solid fa-chevron-down"></i></small></a>
                   <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
                     <a class="dropdown-item" href="#">Vé máy bay</a>
                     <a class="dropdown-item" href="#">Xe & Du thuyền</a>
                   </div>
                 </div>
               </li>
-              <li class="nav-item justify-content-center d-flex align-items-center ">
+              <li class="nav-item justify-content-center d--flex align-items-center ">
                 <div class="dropdown">
-                    <a id="dropdownMenuButton" class="text-nowrap px-2 nav-link text-dark fw-bold " href="#">Kinh Nghiệm & Trải Nghiệm <small><i class="fa-solid fa-chevron-down"></i></small></a>
+                    <a id="dropdownMenuButton" class="text-nowrap px-2 nav-link text-dark fw-bold nopadding" href="#">Kinh Nghiệm & Trải Nghiệm <small><i class="fa-solid fa-chevron-down"></i></small></a>
                     <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
                       <a class="dropdown-item" href="#">Kinh nghiệm du lịch</a>
                       <a class="dropdown-item" href="#">Tin tức và sự kiện</a>
@@ -71,29 +72,27 @@
                     </div>
                   </div>
                 </li>
-                <li class="nav-item justify-content-center d-flex align-items-center ">
+                <li class="nav-item justify-content-center d--flex align-items-center ">
                   <div class="dropdown">
-                    <a id="dropdownMenuButton" class="text-nowrap px-2 nav-link text-dark fw-bold" href="#">Về Chúng Tôi <small><i class="fa-solid fa-chevron-down"></i></small></a>
+                    <a id="dropdownMenuButton" class="text-nowrap px-2 nav-link text-dark fw-bold"nopadding href="#">Về Chúng Tôi <small><i class="fa-solid fa-chevron-down"></i></small></a>
                     <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
                       <a class="dropdown-item" href="#">Liên hệ & hợp tác</a>
                       <a class="dropdown-item" href="#">Về chúng tôi</a>
                     </div>
                   </div>
                 </li>
-                <li class="nav-item justify-content-center d-flex align-items-center ">
-                  <div class="dropdown">
-                      <span id="dropdownMenuButton"><img class="icon-vn" src="https://cdnjs.cloudflare.com/ajax/libs/flag-icon-css/3.0.0/flags/4x3/vn.svg" alt=""></span>
-                      <div class="dropdown-menu p-2" aria-labelledby="dropdownMenuButton">
-                        <p class="dropdown-item"><img class="icon-vn" src="https://cdnjs.cloudflare.com/ajax/libs/flag-icon-css/3.0.0/flags/4x3/vn.svg" alt=""> Tiếng Việt</p>
-                        <p class="dropdown-item"><img class="icon-vn" src="https://cdnjs.cloudflare.com/ajax/libs/flag-icon-css/3.0.0/flags/4x3/gb.svg" alt=""> English</p>
-                        <p class="dropdown-item"><img class="icon-vn" src="https://cdnjs.cloudflare.com/ajax/libs/flag-icon-css/3.0.0/flags/4x3/es.svg" alt=""> Español</p>
-                        <p class="dropdown-item"><img class="icon-vn" src="https://cdnjs.cloudflare.com/ajax/libs/flag-icon-css/3.0.0/flags/4x3/fr.svg" alt=""> Français</p>
-                        <p class="dropdown-item"><img class="icon-vn" src="https://cdnjs.cloudflare.com/ajax/libs/flag-icon-css/3.0.0/flags/4x3/jp.svg" alt=""> 日本</p>
-                      </div>
-                    </div>
-                  </li>
             </ul>
             
+          </div>
+          <div class="check-language">
+            <span id="dropdownMenuButton"><img id="language" class="icon-vn ic" src="https://cdnjs.cloudflare.com/ajax/libs/flag-icon-css/3.0.0/flags/4x3/vn.svg" alt=""></span>
+            <div id="list-language" class="p-2 language">
+              <p class="dropdown-item"><img class="icon-vn" src="https://cdnjs.cloudflare.com/ajax/libs/flag-icon-css/3.0.0/flags/4x3/vn.svg" alt=""> Tiếng Việt</p>
+              <p class="dropdown-item"><img class="icon-vn" src="https://cdnjs.cloudflare.com/ajax/libs/flag-icon-css/3.0.0/flags/4x3/gb.svg" alt=""> English</p>
+              <p class="dropdown-item"><img class="icon-vn" src="https://cdnjs.cloudflare.com/ajax/libs/flag-icon-css/3.0.0/flags/4x3/es.svg" alt=""> Español</p>
+              <p class="dropdown-item"><img class="icon-vn" src="https://cdnjs.cloudflare.com/ajax/libs/flag-icon-css/3.0.0/flags/4x3/fr.svg" alt=""> Français</p>
+              <p class="dropdown-item"><img class="icon-vn" src="https://cdnjs.cloudflare.com/ajax/libs/flag-icon-css/3.0.0/flags/4x3/jp.svg" alt=""> 日本</p>
+            </div>
           </div>
         </div>
       </nav>
@@ -101,7 +100,7 @@
           <!-- slider -->
           <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
             
-            <div class="carousel-inner" style="max-height: 330px;">
+            <div class="carousel-inner">
               <div class="carousel-item active">
                 <img src="https://vgstravel.com/img/slide/13-10-2021/origin/origin-131909-1634118109-27-1.jpg" class="d-block w-100 img-fluid img-responsive" alt="...">
               </div>
@@ -109,7 +108,7 @@
                 <img src="https://vgstravel.com/img/slide/16-12-2021/origin/origin-18773-1639642819-27-56e1d7f4829548cb1184.jpg" class="d-block w-100 img-fluid img-responsive" alt="...">
             </div>
             <div class="carousel-item">
-              <img style="height: auto; position: relative; top: -400px;" src="https://vgstravel.com/img/slide/16-12-2021/origin/origin-58169-1639643035-27-Golfplatz-min.jpg" class="d-block w-100 img-fluid img-responsive" alt="...">
+              <img class="anh3" src="https://vgstravel.com/img/slide/16-12-2021/origin/origin-58169-1639643035-27-Golfplatz-min.jpg" class="d-block w-100 img-fluid img-responsive" alt="...">
               <div class="carousel-caption d-none d-md-block" style="position: absolute; top: 89px; left: -514px;">
                 <h3>THOẢI MÁI VI VU DU LỊCH QUỐC TẾ</h3>
                 <p>Lịch trình ấn tượng chỉ có tại VGS Travel !</p>
@@ -129,63 +128,66 @@
 
           <!-- tour nổi bật -->
           <h1>TOUR NỔI BẬT</h1>
-          <p class="text-muted">Vi vu du lịch golf quốc tế với lịch trình và trải nghiệm độc đáo chỉ có tại VGS Travel</p>
+          <p class="text-muted g">Vi vu du lịch golf quốc tế với lịch trình và trải nghiệm độc đáo chỉ có tại VGS Travel</p>
 
-          <div class="container d-flex">
+          <div class=" dflex">
             
-            <div class="item col-3 mx-1">
-                <div class="dangnhankhach">Đang nhận khách</div>
-                <img class="img" src="https://vgstravel.com/img/tour/23-10-2021/thumbnail/thumbnail-343874-1634984901-27-Hand-Luggage-Only-12.jpg" alt="">
-                <div class="d"><p>Tour golf UK- <br>  Scotland: từ "Xứ sở <br> sương mù" tới "Quê..</p></div>
-                <div class="overlay">
-                    <p class="a">Tour golf UK- <br>  Scotland: từ "Xứ sở <br> sương mù" tới "Quê..</p>
-                    <pre class="x">
-                        Thời gian: 13 ngày 12 đêm
-                        Ngày khởi hành: 2022-04-04
-                        Giá Tour: Liên hệ
-                        <input class="ip" type="button" value="Chi tiết">
-                    </pre>
+            <div class="item p-0 mx-auto">
+              <div class="dangnhankhach">Đang nhận khách</div>
+              <img class="img" src="https://vgstravel.com/img/tour/23-10-2021/thumbnail/thumbnail-343874-1634984901-27-Hand-Luggage-Only-12.jpg" alt="">
+              <div class="d"><p>Tour golf UK- <br>  Scotland: từ "Xứ sở <br> sương mù" tới "Quê..</p></div>
+              <div class="overlay">
+                <div class="y">
+                  <p class="a">Tour golf UK- <br>  Scotland: từ "Xứ sở <br> sương mù" tới "Quê..</p>
+                    <small class="small">Thời gian: 13 ngày 12 đêm</small><br>
+                    <small class="small">Thời gian: 13 ngày 12 đêm</small><br>
+                    <small class="small">Giá Tour: Liên hệ</small><br>
+                    <input class="ip" type="button" value="Chi tiết">
+                  </div>
+              </div>
+          </div>
+          <div class="item p-0 mx-auto">
+            <div class="dangnhankhach">Đang nhận khách</div>
+            <img class="img" src="https://vgstravel.com/img/tour/23-10-2021/thumbnail/thumbnail-343874-1634984901-27-Hand-Luggage-Only-12.jpg" alt="">
+            <div class="d"><p>Tour golf UK- <br>  Scotland: từ "Xứ sở <br> sương mù" tới "Quê..</p></div>
+            <div class="overlay">
+              <div class="y">
+                  <p class="a">Tour golf UK- <br>  Scotland: từ "Xứ sở <br> sương mù" tới "Quê..</p>
+                  <small class="small">Thời gian: 13 ngày 12 đêm</small><br>
+                  <small class="small">Thời gian: 13 ngày 12 đêm</small><br>
+                  <small class="small">Giá Tour: Liên hệ</small><br>
+                  <input class="ip" type="button" value="Chi tiết">
                 </div>
             </div>
-            <div class="item col-3 mx-1">
-                <img class="img" src="https://vgstravel.com/img/tour/02-11-2021/thumbnail/thumbnail-187600-1635844772-27-p6fW04fo-g6fzEnAfk.jpg" alt="">
-                <div class="d"><p>Tour golf UK- <br>  Scotland: từ "Xứ sở <br> sương mù" tới "Quê..</p></div>
-                <div class="overlay">
-                    <p class="a">Tour golf UK- <br>  Scotland: từ "Xứ sở <br> sương mù" tới "Quê..</p>
-                    <pre class="x">
-                        Thời gian: 13 ngày 12 đêm
-                        Ngày khởi hành: 2022-04-04
-                        Giá Tour: Liên hệ
-                        <input class="ip" type="button" value="Chi tiết">
-                    </pre>
-                </div>
-            </div>
-            <div class="item col-3 mx-1">
-                <img class="img" src="https://vgstravel.com/img/tour/17-11-2021/thumbnail/thumbnail-341035-1637131982-27-3fc9dabbb4dfde1d997f54ab7f9a714d.jpg" alt="">
-                <div class="d"><p>Tour golf UK- <br>  Scotland: từ "Xứ sở <br> sương mù" tới "Quê..</p></div>
-                <div class="overlay">
-                    <p class="a">Tour golf UK- <br>  Scotland: từ "Xứ sở <br> sương mù" tới "Quê..</p>
-                    <pre class="x">
-                        Thời gian: 13 ngày 12 đêm
-                        Ngày khởi hành: 2022-04-04
-                        Giá Tour: Liên hệ
-                        <input class="ip" type="button" value="Chi tiết">
-                    </pre>
-                </div>
-            </div>
-            <div class="item col-3 mx-1">
-                <img class="img" src="https://vgstravel.com/img/tour/17-11-2021/thumbnail/thumbnail-564274-1637140842-27-pha-that-luong-3.jpg" alt="">
-                <div class="d"><p>Tour golf UK- <br>  Scotland: từ "Xứ sở <br> sương mù" tới "Quê..</p></div>
-                <div class="overlay">
-                    <p class="a">Tour golf UK- <br>  Scotland: từ "Xứ sở <br> sương mù" tới "Quê..</p>
-                    <pre class="x">
-                        Thời gian: 13 ngày 12 đêm
-                        Ngày khởi hành: 2022-04-04
-                        Giá Tour: Liên hệ
-                        <input class="ip" type="button" value="Chi tiết">
-                    </pre>
-                </div>
-            </div>
+        </div>
+        <div class="item p-0 mx-auto">
+          <div class="dangnhankhach">Đang nhận khách</div>
+          <img class="img" src="https://vgstravel.com/img/tour/23-10-2021/thumbnail/thumbnail-343874-1634984901-27-Hand-Luggage-Only-12.jpg" alt="">
+          <div class="d"><p>Tour golf UK- <br>  Scotland: từ "Xứ sở <br> sương mù" tới "Quê..</p></div>
+          <div class="overlay">
+            <div class="y">
+                <p class="a">Tour golf UK- <br>  Scotland: từ "Xứ sở <br> sương mù" tới "Quê..</p>
+                <small class="small">Thời gian: 13 ngày 12 đêm</small><br>
+                <small class="small">Thời gian: 13 ngày 12 đêm</small><br>
+                <small class="small">Giá Tour: Liên hệ</small><br>
+                <input class="ip" type="button" value="Chi tiết">
+              </div>
+          </div>
+      </div>
+      <div class="item p-0 mx-auto">
+        <div class="dangnhankhach">Đang nhận khách</div>
+        <img class="img" src="https://vgstravel.com/img/tour/23-10-2021/thumbnail/thumbnail-343874-1634984901-27-Hand-Luggage-Only-12.jpg" alt="">
+        <div class="d"><p>Tour golf UK- <br>  Scotland: từ "Xứ sở <br> sương mù" tới "Quê..</p></div>
+        <div class="overlay">
+          <div class="y">
+              <p class="a">Tour golf UK- <br>  Scotland: từ "Xứ sở <br> sương mù" tới "Quê..</p>
+                <small class="small">Thời gian: 13 ngày 12 đêm</small><br>
+                <small class="small">Thời gian: 13 ngày 12 đêm</small><br>
+                <small class="small">Giá Tour: Liên hệ</small><br>
+                <input class="ip" type="button" value="Chi tiết">
+              </div>
+        </div>
+    </div>
           
           </div>
 
@@ -200,187 +202,196 @@
               </div>
           </div>
 
-          <div class="container d-flex mt-5">
+          <div class="pt-4 dflex">
             
-            <div class="item col-3 mx-1">
-                <div class="dangnhankhach">Đang nhận khách</div>
-                <img class="img" src="https://vgstravel.com/img/tour/23-10-2021/thumbnail/thumbnail-343874-1634984901-27-Hand-Luggage-Only-12.jpg" alt="">
-                <div class="d"><p>Tour golf UK- <br>  Scotland: từ "Xứ sở <br> sương mù" tới "Quê..</p></div>
-                <div class="overlay">
+            <div class="item  mx-auto">
+              <div class="dangnhankhach">Đang nhận khách</div>
+              <img class="img" src="https://vgstravel.com/img/tour/23-10-2021/thumbnail/thumbnail-343874-1634984901-27-Hand-Luggage-Only-12.jpg" alt="">
+              <div class="d"><p>Tour golf UK- <br>  Scotland: từ "Xứ sở <br> sương mù" tới "Quê..</p></div>
+              <div class="overlay">
+                <div class="y">
                     <p class="a">Tour golf UK- <br>  Scotland: từ "Xứ sở <br> sương mù" tới "Quê..</p>
-                    <pre class="x">
-                        Thời gian: 13 ngày 12 đêm
-                        Ngày khởi hành: 2022-04-04
-                        Giá Tour: Liên hệ
-                        <input class="ip" type="button" value="Chi tiết">
-                    </pre>
+                    <small class="small">Thời gian: 13 ngày 12 đêm</small><br>
+                    <small class="small">Thời gian: 13 ngày 12 đêm</small><br>
+                    <small class="small">Giá Tour: Liên hệ</small><br>
+                    <input class="ip" type="button" value="Chi tiết">
+                  </div>
+              </div>
+          </div>
+          <div class="item  mx-auto">
+            <div class="dangnhankhach">Đang nhận khách</div>
+            <img class="img" src="https://vgstravel.com/img/tour/23-10-2021/thumbnail/thumbnail-343874-1634984901-27-Hand-Luggage-Only-12.jpg" alt="">
+            <div class="d"><p>Tour golf UK- <br>  Scotland: từ "Xứ sở <br> sương mù" tới "Quê..</p></div>
+            <div class="overlay">
+              <div class="y">
+                  <p class="a">Tour golf UK- <br>  Scotland: từ "Xứ sở <br> sương mù" tới "Quê..</p>
+                  <small class="small">Thời gian: 13 ngày 12 đêm</small><br>
+                  <small class="small">Thời gian: 13 ngày 12 đêm</small><br>
+                  <small class="small">Giá Tour: Liên hệ</small><br>
+                  <input class="ip" type="button" value="Chi tiết">
                 </div>
             </div>
-            <div class="item col-3 mx-1">
-                <img class="img" src="https://vgstravel.com/img/tour/23-10-2021/thumbnail/thumbnail-477790-1634984853-27-france-eiffel-tower-paris.jpg" alt="">
-                <div class="d"><p>Tour golf UK- <br>  Scotland: từ "Xứ sở <br> sương mù" tới "Quê..</p></div>
-                <div class="overlay">
-                    <p class="a">Tour golf UK- <br>  Scotland: từ "Xứ sở <br> sương mù" tới "Quê..</p>
-                    <pre class="x">
-                        Thời gian: 13 ngày 12 đêm
-                        Ngày khởi hành: 2022-04-04
-                        Giá Tour: Liên hệ
-                        <input class="ip" type="button" value="Chi tiết">
-                    </pre>
-                </div>
+        </div>
+        <div class="item  mx-auto">
+          <div class="dangnhankhach">Đang nhận khách</div>
+          <img class="img" src="https://vgstravel.com/img/tour/23-10-2021/thumbnail/thumbnail-343874-1634984901-27-Hand-Luggage-Only-12.jpg" alt="">
+          <div class="d"><p>Tour golf UK- <br>  Scotland: từ "Xứ sở <br> sương mù" tới "Quê..</p></div>
+          <div class="overlay">
+            <div class="y">
+                <p class="a">Tour golf UK- <br>  Scotland: từ "Xứ sở <br> sương mù" tới "Quê..</p>
+                <small class="small">Thời gian: 13 ngày 12 đêm</small><br>
+                <small class="small">Thời gian: 13 ngày 12 đêm</small><br>
+                <small class="small">Giá Tour: Liên hệ</small><br>
+                <input class="ip" type="button" value="Chi tiết">
+              </div>
+          </div>
+      </div>
+      <div class="item  mx-auto">
+        <div class="dangnhankhach">Đang nhận khách</div>
+        <img class="img" src="https://vgstravel.com/img/tour/23-10-2021/thumbnail/thumbnail-343874-1634984901-27-Hand-Luggage-Only-12.jpg" alt="">
+        <div class="d"><p>Tour golf UK- <br>  Scotland: từ "Xứ sở <br> sương mù" tới "Quê..</p></div>
+        <div class="overlay">
+          <div class="y">
+              <p class="a">Tour golf UK- <br>  Scotland: từ "Xứ sở <br> sương mù" tới "Quê..</p>
+              <small class="small">Thời gian: 13 ngày 12 đêm</small><br>
+              <small class="small">Thời gian: 13 ngày 12 đêm</small><br>
+              <small class="small">Giá Tour: Liên hệ</small><br>
+              <input class="ip" type="button" value="Chi tiết">
             </div>
-            <div class="item col-3 mx-1">
-                <img class="img" src="https://vgstravel.com/img/tour/28-10-2021/thumbnail/thumbnail-807982-1635390239-27-sintra-cover.webp" alt="">
-                <div class="d"><p>Tour golf UK- <br>  Scotland: từ "Xứ sở <br> sương mù" tới "Quê..</p></div>
-                <div class="overlay">
-                    <p class="a">Tour golf UK- <br>  Scotland: từ "Xứ sở <br> sương mù" tới "Quê..</p>
-                    <pre class="x">
-                        Thời gian: 13 ngày 12 đêm
-                        Ngày khởi hành: 2022-04-04
-                        Giá Tour: Liên hệ
-                        <input class="ip" type="button" value="Chi tiết">
-                    </pre>
-                </div>
-            </div>
-            <div class="item col-3 mx-1">
-                <img class="img" src="https://vgstravel.com/img/tour/26-10-2021/thumbnail/thumbnail-223283-1635241111-27-chefchauen-1.png" alt="">
-                <div class="d"><p>Tour golf UK- <br>  Scotland: từ "Xứ sở <br> sương mù" tới "Quê..</p></div>
-                <div class="overlay">
-                    <p class="a">Tour golf UK- <br>  Scotland: từ "Xứ sở <br> sương mù" tới "Quê..</p>
-                    <pre class="x">
-                        Thời gian: 13 ngày 12 đêm
-                        Ngày khởi hành: 2022-04-04
-                        Giá Tour: Liên hệ
-                        <input class="ip" type="button" value="Chi tiết">
-                    </pre>
-                </div>
-            </div>
+        </div>
+    </div>
           
           </div>
 
           
-          <div class="container d-flex mt-5">
+          <div class="pt-4 dflex">
             
-            <div class="item col-3 mx-1">
-                <div class="dangnhankhach">Đang nhận khách</div>
-                <img class="img" src="https://vgstravel.com/img/tour/02-11-2021/thumbnail/thumbnail-187600-1635844772-27-p6fW04fo-g6fzEnAfk.jpg" alt="">
-                <div class="d"><p>Tour golf UK- <br>  Scotland: từ "Xứ sở <br> sương mù" tới "Quê..</p></div>
-                <div class="overlay">
+            <div class="item  mx-auto">
+              <div class="dangnhankhach">Đang nhận khách</div>
+              <img class="img" src="https://vgstravel.com/img/tour/23-10-2021/thumbnail/thumbnail-343874-1634984901-27-Hand-Luggage-Only-12.jpg" alt="">
+              <div class="d"><p>Tour golf UK- <br>  Scotland: từ "Xứ sở <br> sương mù" tới "Quê..</p></div>
+              <div class="overlay">
+                <div class="y">
                     <p class="a">Tour golf UK- <br>  Scotland: từ "Xứ sở <br> sương mù" tới "Quê..</p>
-                    <pre class="x">
-                        Thời gian: 13 ngày 12 đêm
-                        Ngày khởi hành: 2022-04-04
-                        Giá Tour: Liên hệ
-                        <input class="ip" type="button" value="Chi tiết">
-                    </pre>
+                    <small class="small">Thời gian: 13 ngày 12 đêm</small><br>
+                    <small class="small">Thời gian: 13 ngày 12 đêm</small><br>
+                    <small class="small">Giá Tour: Liên hệ</small><br>
+                    <input class="ip" type="button" value="Chi tiết">
+                  </div>
+              </div>
+          </div>
+          <div class="item  mx-auto">
+            <div class="dangnhankhach">Đang nhận khách</div>
+            <img class="img" src="https://vgstravel.com/img/tour/23-10-2021/thumbnail/thumbnail-343874-1634984901-27-Hand-Luggage-Only-12.jpg" alt="">
+            <div class="d"><p>Tour golf UK- <br>  Scotland: từ "Xứ sở <br> sương mù" tới "Quê..</p></div>
+            <div class="overlay">
+              <div class="y">
+                  <p class="a">Tour golf UK- <br>  Scotland: từ "Xứ sở <br> sương mù" tới "Quê..</p>
+                  <small class="small">Thời gian: 13 ngày 12 đêm</small><br>
+                  <small class="small">Thời gian: 13 ngày 12 đêm</small><br>
+                  <small class="small">Giá Tour: Liên hệ</small><br>
+                  <input class="ip" type="button" value="Chi tiết">
                 </div>
             </div>
-            <div class="item col-3 mx-1">
-                <img class="img" src="https://vgstravel.com/img/tour/09-11-2021/thumbnail/thumbnail-198956-1636448995-27-05.jpg" alt="">
-                <div class="d"><p>Tour golf UK- <br>  Scotland: từ "Xứ sở <br> sương mù" tới "Quê..</p></div>
-                <div class="overlay">
-                    <p class="a">Tour golf UK- <br>  Scotland: từ "Xứ sở <br> sương mù" tới "Quê..</p>
-                    <pre class="x">
-                        Thời gian: 13 ngày 12 đêm
-                        Ngày khởi hành: 2022-04-04
-                        Giá Tour: Liên hệ
-                        <input class="ip" type="button" value="Chi tiết">
-                    </pre>
-                </div>
+        </div>
+        <div class="item  mx-auto">
+          <div class="dangnhankhach">Đang nhận khách</div>
+          <img class="img" src="https://vgstravel.com/img/tour/23-10-2021/thumbnail/thumbnail-343874-1634984901-27-Hand-Luggage-Only-12.jpg" alt="">
+          <div class="d"><p>Tour golf UK- <br>  Scotland: từ "Xứ sở <br> sương mù" tới "Quê..</p></div>
+          <div class="overlay">
+            <div class="y">
+                <p class="a">Tour golf UK- <br>  Scotland: từ "Xứ sở <br> sương mù" tới "Quê..</p>
+                <small class="small">Thời gian: 13 ngày 12 đêm</small><br>
+                <small class="small">Thời gian: 13 ngày 12 đêm</small><br>
+                <small class="small">Giá Tour: Liên hệ</small><br>
+                <input class="ip" type="button" value="Chi tiết">
+              </div>
+          </div>
+      </div>
+      <div class="item  mx-auto">
+        <div class="dangnhankhach">Đang nhận khách</div>
+        <img class="img" src="https://vgstravel.com/img/tour/23-10-2021/thumbnail/thumbnail-343874-1634984901-27-Hand-Luggage-Only-12.jpg" alt="">
+        <div class="d"><p>Tour golf UK- <br>  Scotland: từ "Xứ sở <br> sương mù" tới "Quê..</p></div>
+        <div class="overlay">
+          <div class="y">
+              <p class="a">Tour golf UK- <br>  Scotland: từ "Xứ sở <br> sương mù" tới "Quê..</p>
+              <small class="small">Thời gian: 13 ngày 12 đêm</small><br>
+              <small class="small">Thời gian: 13 ngày 12 đêm</small><br>
+              <small class="small">Giá Tour: Liên hệ</small><br>
+              <input class="ip" type="button" value="Chi tiết">
             </div>
-            <div class="item col-3 mx-1">
-                <img class="img" src="https://vgstravel.com/img/tour/09-11-2021/thumbnail/thumbnail-267917-1636447343-27-58468660_377171389559000_6535112179510277921_n.jpg" alt="">
-                <div class="d"><p>Tour golf UK- <br>  Scotland: từ "Xứ sở <br> sương mù" tới "Quê..</p></div>
-                <div class="overlay">
-                    <p class="a">Tour golf UK- <br>  Scotland: từ "Xứ sở <br> sương mù" tới "Quê..</p>
-                    <pre class="x">
-                        Thời gian: 13 ngày 12 đêm
-                        Ngày khởi hành: 2022-04-04
-                        Giá Tour: Liên hệ
-                        <input class="ip" type="button" value="Chi tiết">
-                    </pre>
-                </div>
-            </div>
-            <div class="item col-3 mx-1">
-                <img class="img" src="https://vgstravel.com/img/tour/17-11-2021/thumbnail/thumbnail-341035-1637131982-27-3fc9dabbb4dfde1d997f54ab7f9a714d.jpg" alt="">
-                <div class="d"><p>Tour golf UK- <br>  Scotland: từ "Xứ sở <br> sương mù" tới "Quê..</p></div>
-                <div class="overlay">
-                    <p class="a">Tour golf UK- <br>  Scotland: từ "Xứ sở <br> sương mù" tới "Quê..</p>
-                    <pre class="x">
-                        Thời gian: 13 ngày 12 đêm
-                        Ngày khởi hành: 2022-04-04
-                        Giá Tour: Liên hệ
-                        <input class="ip" type="button" value="Chi tiết">
-                    </pre>
-                </div>
-            </div>
+        </div>
+    </div>
           
           </div>
 
 
-          <div class="container d-flex mt-5">
+          <div class="pt-4 dflex">
             
-            <div class="item col-3 mx-1">
-                <div class="dangnhankhach">Đang nhận khách</div>
-                <img class="img" src="https://vgstravel.com/img/tour/17-11-2021/thumbnail/thumbnail-564274-1637140842-27-pha-that-luong-3.jpg" alt="">
-                <div class="d"><p>Tour golf UK- <br>  Scotland: từ "Xứ sở <br> sương mù" tới "Quê..</p></div>
-                <div class="overlay">
+            <div class="item  mx-auto">
+              <div class="dangnhankhach">Đang nhận khách</div>
+              <img class="img" src="https://vgstravel.com/img/tour/23-10-2021/thumbnail/thumbnail-343874-1634984901-27-Hand-Luggage-Only-12.jpg" alt="">
+              <div class="d"><p>Tour golf UK- <br>  Scotland: từ "Xứ sở <br> sương mù" tới "Quê..</p></div>
+              <div class="overlay">
+                <div class="y">
                     <p class="a">Tour golf UK- <br>  Scotland: từ "Xứ sở <br> sương mù" tới "Quê..</p>
-                    <pre class="x">
-                        Thời gian: 13 ngày 12 đêm
-                        Ngày khởi hành: 2022-04-04
-                        Giá Tour: Liên hệ
-                        <input class="ip" type="button" value="Chi tiết">
-                    </pre>
+                    <small class="small">Thời gian: 13 ngày 12 đêm</small><br>
+                    <small class="small">Thời gian: 13 ngày 12 đêm</small><br>
+                    <small class="small">Giá Tour: Liên hệ</small><br>
+                    <input class="ip" type="button" value="Chi tiết">
+                  </div>
+              </div>
+          </div>
+          <div class="item  mx-auto">
+            <div class="dangnhankhach">Đang nhận khách</div>
+            <img class="img" src="https://vgstravel.com/img/tour/23-10-2021/thumbnail/thumbnail-343874-1634984901-27-Hand-Luggage-Only-12.jpg" alt="">
+            <div class="d"><p>Tour golf UK- <br>  Scotland: từ "Xứ sở <br> sương mù" tới "Quê..</p></div>
+            <div class="overlay">
+              <div class="y">
+                  <p class="a">Tour golf UK- <br>  Scotland: từ "Xứ sở <br> sương mù" tới "Quê..</p>
+                  <small class="small">Thời gian: 13 ngày 12 đêm</small><br>
+                  <small class="small">Thời gian: 13 ngày 12 đêm</small><br>
+                  <small class="small">Giá Tour: Liên hệ</small><br>
+                  <input class="ip" type="button" value="Chi tiết">
                 </div>
             </div>
-            <div class="item col-3 mx-1">
-                <img class="img" src="https://vgstravel.com/img/tour/23-11-2021/thumbnail/thumbnail-2580-1637657564-27-1e60f4d6b99d8b938ea639fd511869f6027abfc4-2000x3000.jpg" alt="">
-                <div class="d"><p>Tour golf UK- <br>  Scotland: từ "Xứ sở <br> sương mù" tới "Quê..</p></div>
-                <div class="overlay">
-                    <p class="a">Tour golf UK- <br>  Scotland: từ "Xứ sở <br> sương mù" tới "Quê..</p>
-                    <pre class="x">
-                        Thời gian: 13 ngày 12 đêm
-                        Ngày khởi hành: 2022-04-04
-                        Giá Tour: Liên hệ
-                        <input class="ip" type="button" value="Chi tiết">
-                    </pre>
-                </div>
+        </div>
+        <div class="item  mx-auto">
+          <div class="dangnhankhach">Đang nhận khách</div>
+          <img class="img" src="https://vgstravel.com/img/tour/23-10-2021/thumbnail/thumbnail-343874-1634984901-27-Hand-Luggage-Only-12.jpg" alt="">
+          <div class="d"><p>Tour golf UK- <br>  Scotland: từ "Xứ sở <br> sương mù" tới "Quê..</p></div>
+          <div class="overlay">
+            <div class="y">
+                <p class="a">Tour golf UK- <br>  Scotland: từ "Xứ sở <br> sương mù" tới "Quê..</p>
+                <small class="small">Thời gian: 13 ngày 12 đêm</small><br>
+                <small class="small">Thời gian: 13 ngày 12 đêm</small><br>
+                <small class="small">Giá Tour: Liên hệ</small><br>
+                <input class="ip" type="button" value="Chi tiết">
+              </div>
+          </div>
+      </div>
+      <div class="item  mx-auto">
+        <div class="dangnhankhach">Đang nhận khách</div>
+        <img class="img" src="https://vgstravel.com/img/tour/23-10-2021/thumbnail/thumbnail-343874-1634984901-27-Hand-Luggage-Only-12.jpg" alt="">
+        <div class="d"><p>Tour golf UK- <br>  Scotland: từ "Xứ sở <br> sương mù" tới "Quê..</p></div>
+        <div class="overlay">
+          <div class="y">
+              <p class="a">Tour golf UK- <br>  Scotland: từ "Xứ sở <br> sương mù" tới "Quê..</p>
+              <small class="small">Thời gian: 13 ngày 12 đêm</small><br>
+              <small class="small">Thời gian: 13 ngày 12 đêm</small><br>
+              <small class="small">Giá Tour: Liên hệ</small><br>
+              <input class="ip" type="button" value="Chi tiết">
             </div>
-            <div class="item col-3 mx-1">
-                <img class="img" src="https://vgstravel.com/img/tour/03-12-2021/thumbnail/thumbnail-818234-1638526876-27-a6a780ec0470c9218c293d6fd7973f1d.jpg" alt="">
-                <div class="d"><p>Tour golf UK- <br>  Scotland: từ "Xứ sở <br> sương mù" tới "Quê..</p></div>
-                <div class="overlay">
-                    <p class="a">Tour golf UK- <br>  Scotland: từ "Xứ sở <br> sương mù" tới "Quê..</p>
-                    <pre class="x">
-                        Thời gian: 13 ngày 12 đêm
-                        Ngày khởi hành: 2022-04-04
-                        Giá Tour: Liên hệ
-                        <input class="ip" type="button" value="Chi tiết">
-                    </pre>
-                </div>
-            </div>
-            <div class="item col-3 mx-1">
-                <img class="img" src="https://vgstravel.com/img/tour/04-12-2021/thumbnail/thumbnail-80930-1638609604-27-fileVD8PJ1DM.jpg" alt="">
-                <div class="d"><p>Tour golf UK- <br>  Scotland: từ "Xứ sở <br> sương mù" tới "Quê..</p></div>
-                <div class="overlay">
-                    <p class="a">Tour golf UK- <br>  Scotland: từ "Xứ sở <br> sương mù" tới "Quê..</p>
-                    <pre class="x">
-                        Thời gian: 13 ngày 12 đêm
-                        Ngày khởi hành: 2022-04-04
-                        Giá Tour: Liên hệ
-                        <input class="ip" type="button" value="Chi tiết">
-                    </pre>
-                </div>
-            </div>
+        </div>
+    </div>
           
           </div>
 
 
           <h1>KHÁCH HÀNG NÓI GÌ VỀ CHÚNG TÔI</h1>
-          <div class="container">
-            <div class="d-flex col-12 mt-5">
-              <div class="item1 col-3 mx-1">
+          <div class="">
+            <div class="dflex mt-5 px-1">
+              <div class="item1 mx-auto">
                 <div class="card" style="width: 100%;">
                   <img class="card-img-top" src="https://vgstravel.com/images/review/103_1634543781_icon_27.jpg" alt="Card image cap">
                   <div class="card-body">
@@ -406,7 +417,7 @@
                   </div>
                 </div>
               </div>
-              <div class="item1 col-3 mx-1">
+              <div class="item1 mx-auto">
                 <div class="card" style="width: 100%;">
                   <img class="card-img-top" src="https://vgstravel.com/images/review/103_1634543781_icon_27.jpg" alt="Card image cap">
                   <div class="card-body">
@@ -423,7 +434,7 @@
                   </div>
                 </div>
               </div>
-              <div class="item1 col-3 mx-1">
+              <div class="item1 mx-auto">
                 <div class="card" style="width: 100%;">
                   <img class="card-img-top" src="https://vgstravel.com/images/review/103_1634543781_icon_27.jpg" alt="Card image cap">
                   <div class="card-body">
@@ -440,7 +451,7 @@
                   </div>
                 </div>
               </div>
-              <div class="item1 col-3 mx-1">
+              <div class="item1 mx-auto">
                 <div class="card" style="width: 100%;">
                   <img class="card-img-top" src="https://vgstravel.com/images/review/103_1634543781_icon_27.jpg" alt="Card image cap">
                   <div class="card-body">
@@ -462,7 +473,7 @@
           </div>
 
           <div class="row mt-3 mb-5 mt-5 p-2">
-            <div class="col-8">
+            <div class="col-12 col-md-8">
               <div class="col-12 border-bottom border-warning">
                 <ul class="nav">
                   <li class="nav-item">
@@ -479,63 +490,63 @@
                   </li>
                 </ul>
               </div>
-              <div class="card mb-3 mt-3 border-0" style="max-width: 100%;">
+              <div class="card mb-0 mt-3 border-0" style="max-width: 100%;">
                 <div class="row g-0 ">
-                  <div class="col-md-4">
-                    <img style="height: 100%" src="https://vgstravel.com/images/blog/830_1633688924_blog.png" class="img-fluid rounded-start" alt="...">
+                  <div class="col-md-4" style="height: 300px;">
+                    <img class="pt-3" style="width: 100%; height: 200px; object-fit: cover;" src="https://vgstravel.com/images/blog/830_1633688924_blog.png" class="img-fluid rounded-start" alt="...">
                   </div>
                   <div class="col-md-8">
                     <div class="card-body">
                       <h5 class="card-title">Tổng hợp kinh nghiệm du lịch Ireland và những điều cần biết</h5>
-                      <p class="card-text">
+                      <p class="card-text des-text">
                         Không phải tự nhiên mà Ireland được mệnh danh một trong những đất nước đáng sống nhất thế giới, cũng như một địa điểm du lịch Châu Âu lý tưởng. Những ngọn đồi xanh mướt, đường bờ biển duyên dáng, những lâu đài cổ kính, và rượu whisky, bia Guinness nổi tiếng... đã thu hút hàng triệu du khách đặt chân tới Ireland mỗi năm. Những kinh nghiệm du lịch Ireland dưới đây do VGS Travel tổng hợp sẽ giúp bạn có một chuyến vi vu tuyệt vời đến “Hòn đảo ngọc lục bảo” đầy mê hoặc của Châu Âu này!
                       </p>
                     </div>
                   </div>
                 </div>
               </div>
-              <div class="col-12 d-flex mt-5">
-                <div class="col-4 d-flex">
-                  <img class="img-fluid col-4" style="height: 70px;" src="https://vgstravel.com/images/blog/40_1633682276_blog.png" alt="">
-                  <div class="col-8" style="background-color: #efefef;">
-                    <small style="height: 100%" class="px-2 d-flex justify-content-center align-items-center">Kinh nghiệm du lịch Hungary siêu chi tiết dành cho golfer</small>
+              <div class="col-12 dflex mt-0">
+                <div class="dflex col-12 col-md-4 exp">
+                  <img class="img-fluid col-md-4 col-12 i-l" src="https://vgstravel.com/images/blog/40_1633682276_blog.png" alt="">
+                  <div class="col-md-8 col-12" style="background-color: #efefef;">
+                    <small style="height: 100%; overflow: hidden;" class="px-2 d-flex justify-content-center align-items-center">Kinh nghiệm du lịch Hungary siêu chi tiết dành cho golfer</small>
                   </div>
                 </div>
-                <div class="col-4 d-flex ">
-                  <img class="img-fluid col-4" style="height: 70px;" src="https://vgstravel.com/images/blog/40_1633682276_blog.png" alt="">
-                  <div class="col-8" style="background-color: #efefef;">
-                    <small style="height: 100%" class="px-2 d-flex justify-content-center align-items-center">Kinh nghiệm du lịch Hungary siêu chi tiết dành cho golfer</small>
+                <div class="dflex col-12 col-md-4 exp">
+                  <img class="img-fluid col-md-4 col-12 i-l" src="https://vgstravel.com/images/blog/40_1633682276_blog.png" alt="">
+                  <div class="col-md-8 col-12" style="background-color: #efefef;">
+                    <small style="height: 100%; overflow: hidden;" class="px-2 d-flex justify-content-center align-items-center">Kinh nghiệm du lịch Hungary siêu chi tiết dành cho golfer</small>
                   </div>
                 </div>
-                <div class="col-4 d-flex">
-                  <img class="img-fluid col-4" style="height: 70px;" src="https://vgstravel.com/images/blog/40_1633682276_blog.png" alt="">
-                  <div class="col-8" style="background-color: #efefef;">
-                    <small style="height: 100%" class="px-2 d-flex justify-content-center align-items-center">Kinh nghiệm du lịch Hungary siêu chi tiết dành cho golfer</small>
+                <div class="dflex col-12 col-md-4 exp">
+                  <img class="img-fluid col-md-4 col-12 i-l" src="https://vgstravel.com/images/blog/40_1633682276_blog.png" alt="">
+                  <div class="col-md-8 col-12" style="background-color: #efefef;">
+                    <small style="height: 100%; overflow: hidden;" class="px-2 d-flex justify-content-center align-items-center">Kinh nghiệm du lịch Hungary siêu chi tiết dành cho golfer</small>
                   </div>
                 </div>
               </div>
-              <div class="col-12 d-flex pt-3">
-                <div class="col-4 d-flex">
-                  <img class="img-fluid col-4" style="height: 70px;" src="https://vgstravel.com/images/blog/40_1633682276_blog.png" alt="">
-                  <div class="col-8" style="background-color: #efefef;">
-                    <small style="height: 100%" class="px-2 d-flex justify-content-center align-items-center">Kinh nghiệm du lịch Hungary siêu chi tiết dành cho golfer</small>
+              <div class="col-12 dflex mt-5">
+                <div class="dflex col-12 col-md-4 exp">
+                  <img class="img-fluid col-md-4 col-12 i-l" src="https://vgstravel.com/images/blog/40_1633682276_blog.png" alt="">
+                  <div class="col-md-8 col-12" style="background-color: #efefef;">
+                    <small style="height: 100%; overflow: hidden;" class="px-2 d-flex justify-content-center align-items-center">Kinh nghiệm du lịch Hungary siêu chi tiết dành cho golfer</small>
                   </div>
                 </div>
-                <div class="col-4 d-flex ">
-                  <img class="img-fluid col-4" style="height: 70px;" src="https://vgstravel.com/images/blog/40_1633682276_blog.png" alt="">
-                  <div class="col-8" style="background-color: #efefef;">
-                    <small style="height: 100%" class="px-2 d-flex justify-content-center align-items-center">Kinh nghiệm du lịch Hungary siêu chi tiết dành cho golfer</small>
+                <div class="dflex col-12 col-md-4 exp">
+                  <img class="img-fluid col-md-4 col-12 i-l" src="https://vgstravel.com/images/blog/40_1633682276_blog.png" alt="">
+                  <div class="col-md-8 col-12" style="background-color: #efefef;">
+                    <small style="height: 100%; overflow: hidden;" class="px-2 d-flex justify-content-center align-items-center">Kinh nghiệm du lịch Hungary siêu chi tiết dành cho golfer</small>
                   </div>
                 </div>
-                <div class="col-4 d-flex">
-                  <img class="img-fluid col-4" style="height: 70px;" src="https://vgstravel.com/images/blog/40_1633682276_blog.png" alt="">
-                  <div class="col-8" style="background-color: #efefef;">
-                    <small style="height: 100%" class="px-2 d-flex justify-content-center align-items-center">Kinh nghiệm du lịch Hungary siêu chi tiết dành cho golfer</small>
+                <div class="dflex col-12 col-md-4 exp">
+                  <img class="img-fluid col-md-4 col-12 i-l" src="https://vgstravel.com/images/blog/40_1633682276_blog.png" alt="">
+                  <div class="col-md-8 col-12" style="background-color: #efefef;">
+                    <small style="height: 100%; overflow: hidden;" class="px-2 d-flex justify-content-center align-items-center">Kinh nghiệm du lịch Hungary siêu chi tiết dành cho golfer</small>
                   </div>
                 </div>
               </div>
             </div>
-            <div class="col-4">
+            <div class="col-md-4 col-12">
               <div class="col-12 border-bottom border-warning">
                 <ul class="nav">
                   <li class="nav-item">
@@ -545,19 +556,19 @@
               </div>
 
               <div class="col-12 mt-3" style="position: relative;">
-                <img class="col-12" src="https://vgstravel.com/images/blog/46_1633666265_blog.jpg" alt="">
+                <img class="col-12 exp1" src="https://vgstravel.com/images/blog/46_1633666265_blog.jpg" alt="">
                 <div class="col-12 t"><span class="text-img">Tổng hợp kinh nghiệm du lịch Ý siêu chi tiết cho golfer</span></div>
               </div>
               <div class="col-12">
-                <div class="col-12 d-flex pt-3">
-                  <img class="img-fluid col-4" style="height: 70px;" src="https://vgstravel.com/images/blog/40_1633682276_blog.png" alt="">
-                  <div class="col-8" style="background-color: #efefef;">
+                <div class="dflex col-12 col-md-12 exp">
+                  <img class="img-fluid col-md-4 col-12 i" src="https://vgstravel.com/images/blog/40_1633682276_blog.png" alt="">
+                  <div class="col-md-8 col-12" style="background-color: #efefef;">
                     <small style="height: 100%" class="px-2 d-flex justify-content-center align-items-center">Kinh nghiệm du lịch Hungary siêu chi tiết dành cho golfer</small>
                   </div>
                 </div>
-                <div class="col-12 d-flex pt-3">
-                  <img class="img-fluid col-4" style="height: 70px;" src="https://vgstravel.com/images/blog/40_1633682276_blog.png" alt="">
-                  <div class="col-8" style="background-color: #efefef;">
+                <div class="dflex col-12 col-md-12 exp">
+                  <img class="img-fluid col-md-4 col-12 i" src="https://vgstravel.com/images/blog/40_1633682276_blog.png" alt="">
+                  <div class="col-md-8 col-12" style="background-color: #efefef;">
                     <small style="height: 100%" class="px-2 d-flex justify-content-center align-items-center">Kinh nghiệm du lịch Hungary siêu chi tiết dành cho golfer</small>
                   </div>
                 </div>
@@ -567,18 +578,18 @@
           
           <h1>ĐỐI TÁC CỦA CHÚNG TÔI</h1>
           <div class="doitac">
-            <img class="col-2" src="https://78c27a937a0ced0.kcdn.vn/images/partner/vna.png" alt="">
-            <img class="col-2" src="https://78c27a937a0ced0.kcdn.vn/images/partner/mb.png" alt="">
-            <img class="col-2" src="https://78c27a937a0ced0.kcdn.vn/images/partner/evga.jpg" alt="">
-            <img class="col-2" src="https://78c27a937a0ced0.kcdn.vn/images/partner/a4.png" alt="">
-            <img class="col-2" src="https://78c27a937a0ced0.kcdn.vn/images/partner/sheraton.png" alt="">
-            <img class="col-2" src="https://78c27a937a0ced0.kcdn.vn/images/partner/gotady.png" alt="">
-            <img class="col-2" src="https://78c27a937a0ced0.kcdn.vn/images/partner/vna.png" alt="">
-            <img class="col-2" src="https://78c27a937a0ced0.kcdn.vn/images/partner/golfnews.png" alt="">
-            <img class="col-2" src="https://78c27a937a0ced0.kcdn.vn/images/partner/pvi.png" alt="">
-            <img class="col-2" src="https://78c27a937a0ced0.kcdn.vn/images/partner/vgs-booking.png" alt="">
-            <img class="col-2" src="https://78c27a937a0ced0.kcdn.vn/images/partner/vgsgroup.png" alt="">
-            <img class="col-2" src="https://78c27a937a0ced0.kcdn.vn/images/partner/IAGTO.png" alt="">
+            <img class="col-md-2 col-6 mx-auto" src="https://78c27a937a0ced0.kcdn.vn/images/partner/vna.png" alt="">
+            <img class="col-md-2 col-6 mx-auto" src="https://78c27a937a0ced0.kcdn.vn/images/partner/mb.png" alt="">
+            <img class="col-md-2 col-6 mx-auto" src="https://78c27a937a0ced0.kcdn.vn/images/partner/evga.jpg" alt="">
+            <img class="col-md-2 col-6 mx-auto" src="https://78c27a937a0ced0.kcdn.vn/images/partner/a4.png" alt="">
+            <img class="col-md-2 col-6 mx-auto" src="https://78c27a937a0ced0.kcdn.vn/images/partner/sheraton.png" alt="">
+            <img class="col-md-2 col-6 mx-auto" src="https://78c27a937a0ced0.kcdn.vn/images/partner/gotady.png" alt="">
+            <img class="col-md-2 col-6 mx-auto" src="https://78c27a937a0ced0.kcdn.vn/images/partner/vna.png" alt="">
+            <img class="col-md-2 col-6 mx-auto" src="https://78c27a937a0ced0.kcdn.vn/images/partner/golfnews.png" alt="">
+            <img class="col-md-2 col-6 mx-auto" src="https://78c27a937a0ced0.kcdn.vn/images/partner/pvi.png" alt="">
+            <img class="col-md-2 col-6 mx-auto" src="https://78c27a937a0ced0.kcdn.vn/images/partner/vgs-booking.png" alt="">
+            <img class="col-md-2 col-6 mx-auto" src="https://78c27a937a0ced0.kcdn.vn/images/partner/vgsgroup.png" alt="">
+            <img class="col-md-2 col-6 mx-auto" src="https://78c27a937a0ced0.kcdn.vn/images/partner/IAGTO.png" alt="">
         </div>
 
     </div>
@@ -596,14 +607,14 @@
           <p>Về chúng tôi</p>
           <p>Chính sách và quyền riêng tư</p>
       </div>
-      <div class="qrVA">
+      <!-- <div class="qrVA">
           <h5>QR Vhandicap Android</h5>
           <img src="https://vgstravel.com/frontend/image/qrcode%20(1).png" alt="">
       </div>
       <div class="qrVI">
           <h5>QR Vhandicap IOS</h5>
           <img src="https://vgstravel.com/frontend/image/qrcode.png" alt="">
-      </div>
+      </div> -->
       
     </footer>
     <hr>
@@ -613,5 +624,27 @@
         <span style="font-size: 34px;"><i class="fa-brands fa-instagram-square"></i></span>
     </div>
     </div>
+
+    <script>
+      var language = document.getElementById("language");
+      var check = true;
+      language.addEventListener("click", function() {
+          if(check == true) {
+            document.getElementById("list-language").style.display = "block";
+          }else {
+            document.getElementById("list-language").style.display = "none";
+          }
+          check = !check;
+          console.log('asd');
+      })
+
+      var daux = document.getElementById("daux");
+      daux.addEventListener("click", function() {
+        document.querySelector("[aria-expanded='true']").setAttribute('aria-expanded', 'false');
+        setTimeout(function() {
+            document.querySelector("[id='navbarSupportedContent']").setAttribute('class', 'navbar-collapse collapse');
+        }, 500);
+      })
+  </script>
 </body>
 </html>
